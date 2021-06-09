@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jcQ2mmulz/an2Ih5tOirkE0p1CVW2/zeoojMaUi8LeRmpYeC0NFkkGid5vqYc8Rz1i/fDw0qfxJAohZ5bi5/kg==",
+  "success": true,
+  "projectFilePath": "C:\\DMDP\\dmdp.Interface\\dmdp.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rakesh_Chidipi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

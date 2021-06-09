@@ -1,0 +1,13 @@
+C:\DMDP\dmdp_sln_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\DMDP\dmdp_sln_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\DMDP\dmdp_sln_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\DMDP\dmdp_sln_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\DMDP\dmdp_sln_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\DMDP\dmdp_sln_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\DMDP\dmdp_sln_1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\DMDP\dmdp_sln_1\bin\Debug\netcoreapp3.1\dmdp.Entities.dll
+C:\DMDP\dmdp_sln_1\bin\Debug\netcoreapp3.1\dmdp.Services.dll
+C:\DMDP\dmdp_sln_1\obj\Debug\netcoreapp3.1\dmdp_sln_1.csprojAssemblyReference.cache
+C:\DMDP\dmdp_sln_1\obj\Debug\netcoreapp3.1\dmdp_sln_1.AssemblyInfoInputs.cache
+C:\DMDP\dmdp_sln_1\obj\Debug\netcoreapp3.1\dmdp_sln_1.AssemblyInfo.cs
+C:\DMDP\dmdp_sln_1\obj\Debug\netcoreapp3.1\dmdp_sln_1.RazorTargetAssemblyInfo.cache

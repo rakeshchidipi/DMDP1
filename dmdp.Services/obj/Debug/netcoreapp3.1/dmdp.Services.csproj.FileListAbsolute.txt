@@ -1,0 +1,4 @@
+C:\DMDP\dmdp.Services\bin\Debug\netcoreapp3.1\dmdp.Services.exe
+C:\DMDP\dmdp.Services\obj\Debug\netcoreapp3.1\dmdp.Services.csprojAssemblyReference.cache
+C:\DMDP\dmdp.Services\obj\Debug\netcoreapp3.1\dmdp.Services.AssemblyInfoInputs.cache
+C:\DMDP\dmdp.Services\obj\Debug\netcoreapp3.1\dmdp.Services.AssemblyInfo.cs
