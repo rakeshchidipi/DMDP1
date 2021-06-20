@@ -4,10 +4,14 @@ using System.Text;
 using System.Threading.Tasks;
 using dmdp.Services.Interface;
 using Microsoft.Extensions.Logging;
+using dmdp.common;
+using Microsoft.AspNetCore.Mvc;
+
 
 namespace dmdp.Services.Impl
 {
-   public class Word : IOfficeApplication,IOfficeOperations
+    [ServiceFilter(typeof(ErrorHandlingFilter))]
+    public class Word : IOfficeApplication,IOfficeOperations
     {
         public string identifier { get; set; }
         ILogger<Word> _logger;
@@ -25,9 +29,20 @@ namespace dmdp.Services.Impl
             throw new NotImplementedException();
         }
 
-        public Task<string> RefreshData(int chartid)
+        public async Task<string> RefreshData(int chartid)
         {
-            throw new NotImplementedException();
+            string response = string.Empty;
+            try
+            {
+                // Logic of fresh
+                response = await Task.FromResult("Success");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "error_GatData");
+                response = "failure";
+            }
+            return response;
         }
 
         private string GetData(int shapeid) {
@@ -45,7 +60,7 @@ namespace dmdp.Services.Impl
         
         }
 
-        public Task<string> ExportRefreshData(int chartid)
+        public Task<string> ReplaceShape(int chartid)
         {
             throw new NotImplementedException();
         }

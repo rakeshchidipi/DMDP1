@@ -1,0 +1,13 @@
+D:\Demos\DMDP1\dmdp.Entities\bin\Debug\netcoreapp3.1\dmdp.Entities.exe
+D:\Demos\DMDP1\dmdp.Entities\bin\Debug\netcoreapp3.1\dmdp.Entities.deps.json
+D:\Demos\DMDP1\dmdp.Entities\bin\Debug\netcoreapp3.1\dmdp.Entities.runtimeconfig.json
+D:\Demos\DMDP1\dmdp.Entities\bin\Debug\netcoreapp3.1\dmdp.Entities.runtimeconfig.dev.json
+D:\Demos\DMDP1\dmdp.Entities\bin\Debug\netcoreapp3.1\dmdp.Entities.dll
+D:\Demos\DMDP1\dmdp.Entities\bin\Debug\netcoreapp3.1\dmdp.Entities.pdb
+D:\Demos\DMDP1\dmdp.Entities\obj\Debug\netcoreapp3.1\dmdp.Entities.csprojAssemblyReference.cache
+D:\Demos\DMDP1\dmdp.Entities\obj\Debug\netcoreapp3.1\dmdp.Entities.AssemblyInfoInputs.cache
+D:\Demos\DMDP1\dmdp.Entities\obj\Debug\netcoreapp3.1\dmdp.Entities.AssemblyInfo.cs
+D:\Demos\DMDP1\dmdp.Entities\obj\Debug\netcoreapp3.1\dmdp.Entities.csproj.CoreCompileInputs.cache
+D:\Demos\DMDP1\dmdp.Entities\obj\Debug\netcoreapp3.1\dmdp.Entities.dll
+D:\Demos\DMDP1\dmdp.Entities\obj\Debug\netcoreapp3.1\dmdp.Entities.pdb
+D:\Demos\DMDP1\dmdp.Entities\obj\Debug\netcoreapp3.1\dmdp.Entities.genruntimeconfig.cache

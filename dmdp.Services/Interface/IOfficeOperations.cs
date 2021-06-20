@@ -7,6 +7,6 @@ namespace dmdp.Services.Interface
 {
     interface IOfficeOperations
     {
-        Task<string> ExportRefreshData(int chartid);
+        Task<string> ReplaceShape(int chartid);
     }
 }

@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using dmdp.Services.Factory;
 using dmdp.Services.Interface;
 using dmdp.Services.Impl;
+using dmdp.common;
 
 namespace dmdp_sln_1
 {
@@ -30,15 +31,17 @@ namespace dmdp_sln_1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<IBaseLogger, Log4netLogger>();
+            services.AddScoped<ErrorHandlingFilter>();
             services.AddSingleton<OfficeApplicationFactory>();
-            services.AddScoped<IOfficeApplication, Word>();
-            services.AddScoped<IOfficeApplication, Excel>();
-            services.AddScoped<IOfficeApplication, Powerpoint>();
+            services.AddSingleton<IOfficeApplication, Word>();
+            services.AddSingleton<IOfficeApplication, Excel>();
+            services.AddSingleton<IOfficeApplication, Powerpoint>();
             services.AddSingleton<IConfiguration>(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger, ILoggerFactory loggerFactory, IBaseLogger requestLogger)
         {
             _logger = logger;
             try
@@ -49,8 +52,10 @@ namespace dmdp_sln_1
                 }
 
                 app.UseHttpsRedirection();
-
                 app.UseRouting();
+                //app.UseMiddleware<RequestResponseLoggingMiddleware>(requestLogger);
+                //app.UseMiddleware<EnableRewindableBodyStartup>();
+                // app.UseMiddleware<RateLimitHandler>(requestLogger);
                 loggerFactory.AddLog4Net();
                 app.UseAuthorization();
 

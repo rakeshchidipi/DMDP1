@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DMDP\\dmdp.Services\\dmdp.Services.csproj": {}
+    "D:\\Demos\\DMDP1\\dmdp.Services\\dmdp.Services.csproj": {}
   },
   "projects": {
-    "C:\\DMDP\\dmdp.Services\\dmdp.Services.csproj": {
+    "D:\\Demos\\DMDP1\\dmdp.common\\dmdp.common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DMDP\\dmdp.Services\\dmdp.Services.csproj",
-        "projectName": "dmdp.Services",
-        "projectPath": "C:\\DMDP\\dmdp.Services\\dmdp.Services.csproj",
-        "packagesPath": "C:\\Users\\Rakesh_Chidipi\\.nuget\\packages\\",
-        "outputPath": "C:\\DMDP\\dmdp.Services\\obj\\",
+        "projectUniqueName": "D:\\Demos\\DMDP1\\dmdp.common\\dmdp.common.csproj",
+        "projectName": "dmdp.common",
+        "projectPath": "D:\\Demos\\DMDP1\\dmdp.common\\dmdp.common.csproj",
+        "packagesPath": "C:\\Users\\vagrant\\.nuget\\packages\\",
+        "outputPath": "D:\\Demos\\DMDP1\\dmdp.common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rakesh_Chidipi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\vagrant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,7 +41,87 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Demos\\DMDP1\\dmdp.Services\\dmdp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Demos\\DMDP1\\dmdp.Services\\dmdp.Services.csproj",
+        "projectName": "dmdp.Services",
+        "projectPath": "D:\\Demos\\DMDP1\\dmdp.Services\\dmdp.Services.csproj",
+        "packagesPath": "C:\\Users\\vagrant\\.nuget\\packages\\",
+        "outputPath": "D:\\Demos\\DMDP1\\dmdp.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vagrant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Demos\\DMDP1\\dmdp.common\\dmdp.common.csproj": {
+                "projectPath": "D:\\Demos\\DMDP1\\dmdp.common\\dmdp.common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -57,18 +137,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

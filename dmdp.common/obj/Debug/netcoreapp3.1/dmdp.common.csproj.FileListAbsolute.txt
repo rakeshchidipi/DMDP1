@@ -1,0 +1,9 @@
+D:\Demos\DMDP1\dmdp.common\bin\Debug\netcoreapp3.1\dmdp.common.deps.json
+D:\Demos\DMDP1\dmdp.common\bin\Debug\netcoreapp3.1\dmdp.common.dll
+D:\Demos\DMDP1\dmdp.common\bin\Debug\netcoreapp3.1\dmdp.common.pdb
+D:\Demos\DMDP1\dmdp.common\obj\Debug\netcoreapp3.1\dmdp.common.csprojAssemblyReference.cache
+D:\Demos\DMDP1\dmdp.common\obj\Debug\netcoreapp3.1\dmdp.common.AssemblyInfoInputs.cache
+D:\Demos\DMDP1\dmdp.common\obj\Debug\netcoreapp3.1\dmdp.common.AssemblyInfo.cs
+D:\Demos\DMDP1\dmdp.common\obj\Debug\netcoreapp3.1\dmdp.common.csproj.CoreCompileInputs.cache
+D:\Demos\DMDP1\dmdp.common\obj\Debug\netcoreapp3.1\dmdp.common.dll
+D:\Demos\DMDP1\dmdp.common\obj\Debug\netcoreapp3.1\dmdp.common.pdb

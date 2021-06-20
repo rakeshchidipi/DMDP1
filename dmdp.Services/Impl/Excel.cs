@@ -11,7 +11,7 @@ namespace dmdp.Services.Impl
         public string identifier { get; set; }
         public Excel()
         {
-            identifier = nameof(Excel);
+            identifier = nameof(Excel);   // LSP
         }
         public Task<string> DeleteShape(int shapeid)
         {

@@ -17,7 +17,7 @@ namespace dmdp.Services.Factory
         private ILogger<OfficeApplicationFactory> _logger;
         public OfficeApplicationFactory(IEnumerable<IOfficeApplication> officeapplications, ILogger<OfficeApplicationFactory> logger)
         {
-            _officeapplications = officeapplications;
+            _officeapplications = officeapplications;  // DIP
             _logger = logger;
         }
 
@@ -30,7 +30,7 @@ namespace dmdp.Services.Factory
         {
             try
             {
-                _officeapplication= _officeapplications.FirstOrDefault(h => string.Compare( h.identifier , application,true)==0);
+                _officeapplication= _officeapplications.FirstOrDefault(app => string.Compare( app.identifier , application,true)==0);
             }
             catch (Exception ex)
             {

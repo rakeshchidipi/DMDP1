@@ -1,0 +1,13 @@
+D:\Demos\DMDP1\dmdp.Repository\bin\Debug\netcoreapp3.1\dmdp.Repository.exe
+D:\Demos\DMDP1\dmdp.Repository\bin\Debug\netcoreapp3.1\dmdp.Repository.deps.json
+D:\Demos\DMDP1\dmdp.Repository\bin\Debug\netcoreapp3.1\dmdp.Repository.runtimeconfig.json
+D:\Demos\DMDP1\dmdp.Repository\bin\Debug\netcoreapp3.1\dmdp.Repository.runtimeconfig.dev.json
+D:\Demos\DMDP1\dmdp.Repository\bin\Debug\netcoreapp3.1\dmdp.Repository.dll
+D:\Demos\DMDP1\dmdp.Repository\bin\Debug\netcoreapp3.1\dmdp.Repository.pdb
+D:\Demos\DMDP1\dmdp.Repository\obj\Debug\netcoreapp3.1\dmdp.Repository.csprojAssemblyReference.cache
+D:\Demos\DMDP1\dmdp.Repository\obj\Debug\netcoreapp3.1\dmdp.Repository.AssemblyInfoInputs.cache
+D:\Demos\DMDP1\dmdp.Repository\obj\Debug\netcoreapp3.1\dmdp.Repository.AssemblyInfo.cs
+D:\Demos\DMDP1\dmdp.Repository\obj\Debug\netcoreapp3.1\dmdp.Repository.csproj.CoreCompileInputs.cache
+D:\Demos\DMDP1\dmdp.Repository\obj\Debug\netcoreapp3.1\dmdp.Repository.dll
+D:\Demos\DMDP1\dmdp.Repository\obj\Debug\netcoreapp3.1\dmdp.Repository.pdb
+D:\Demos\DMDP1\dmdp.Repository\obj\Debug\netcoreapp3.1\dmdp.Repository.genruntimeconfig.cache

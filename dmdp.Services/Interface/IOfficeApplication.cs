@@ -18,17 +18,6 @@ namespace dmdp.Services.Interface
 
     }
 
-    // monolith problems
-    // exiting solution -- open existing class with more code
-
-    // interface segration
-    // architeture -- design pattrens -- singleton, dynamic injection
-    // Solid priciples ***
-    // exception handling
-    // DRY , KISS ,
-    // using block -- object lifecycle
-    // openclose -- extending object -- class initialise and modify
-    // unit test
-    // add UI layer
+    
 
 }
