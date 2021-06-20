@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace dmdp.Services.Impl
 {
-   public class Word : IOfficeApplication
+   public class Word : IOfficeApplication,IOfficeOperations
     {
         public string identifier { get; set; }
         ILogger<Word> _logger;
@@ -43,6 +43,11 @@ namespace dmdp.Services.Impl
             }
             return response;
         
+        }
+
+        public Task<string> ExportRefreshData(int chartid)
+        {
+            throw new NotImplementedException();
         }
     }
 }

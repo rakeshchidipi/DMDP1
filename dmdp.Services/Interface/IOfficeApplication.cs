@@ -20,6 +20,7 @@ namespace dmdp.Services.Interface
 
     // monolith problems
     // exiting solution -- open existing class with more code
+
     // interface segration
     // architeture -- design pattrens -- singleton, dynamic injection
     // Solid priciples ***
